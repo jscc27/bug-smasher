@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    background-image: url(images/centennialcollege.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding-top: 150px;
+    background-color: rgb(70, 70, 70);
+    color:rgb(200, 220, 40);
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#copyright{
+    width: 100%;
+    text-align: center;
+    font-size: 10;
+    position: absolute;
+    margin-top: 100;
+}
+.info{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    font-weight: bold;
+}
+#buttons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    font-size: large;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(70, 70, 70);
+    color:rgb(200, 220, 40);
+}
+#gameName{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
